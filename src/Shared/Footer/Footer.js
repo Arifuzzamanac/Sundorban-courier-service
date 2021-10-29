@@ -6,7 +6,7 @@ const Footer = () => {
         <div>
 
             <div>
-                <Navbar bg="dark" variant="dark" fixed="bottom" collapseOnSelect expand="lg">
+                <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg">
                     <Container>
                         {/* <Navbar.Toggle /> */}
                         <div className='text-white pt-3 mx-5'><p><small>all 	&copy; righit reserved by developer end</small></p></div>

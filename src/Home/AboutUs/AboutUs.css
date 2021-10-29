@@ -1,0 +1,25 @@
+.counter{
+   border: 1px solid #ffe4c473;
+   border-radius: 10px;
+   padding: 15px;
+}
+
+.about-us{
+    background-color: floralwhite;
+    border: 1px solid blueviolet;
+}
+
+.about-us ul li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+
+.effect:hover{
+    transition: ease-in;
+    background-color: lightgoldenrodyellow;
+    height: 350px;
+    width: 450px;
+    /* transform: scaleY(0) scale(1.2); */
+    /* transform: scale(0.54); */
+}

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './Context/AuthProvider';
 import Home from './Home/Home/Home';
+import Order from './Home/Order/Order';
 import Booking from './Login/Booking';
 import Login from './Login/Login';
 import PrivateRouter from './Login/PrivateRouter/PrivateRouter';
@@ -25,9 +26,6 @@ function App() {
             </Route>
             <Route path='/login'>
               <Login></Login>
-            </Route>
-            <Route path='/register'>
-              <Register></Register>
             </Route>
             <PrivateRouter path='/Booking/:ServiceId'>
               <Booking></Booking>

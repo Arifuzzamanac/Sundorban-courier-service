@@ -5,7 +5,7 @@ import img1 from '../images/404.png'
 const NotFound = () => {
     return (
         <div>
-            <img style={{ height: '70vh' }} src={img1} alt="" />
+            <img style={{ height: '84vh' }} src={img1} alt="" />
             <br />
             <Link to="/">
                 <button className='btn-primary'>Go Back</button>

@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyB9RR1BMOsv0fku5EETETh62nyayMqg2sk",
-    authDomain: "update-care.firebaseapp.com",
-    projectId: "update-care",
-    storageBucket: "update-care.appspot.com",
-    messagingSenderId: "610880956976",
-    appId: "1:610880956976:web:f371f3b9d0b7f919279bf5"
+    apiKey: "AIzaSyCakICqHbUnUijXebRAxZSzqm3pmw7wXi0",
+    authDomain: "curier-service.firebaseapp.com",
+    projectId: "curier-service",
+    storageBucket: "curier-service.appspot.com",
+    messagingSenderId: "385957461255",
+    appId: "1:385957461255:web:8a5897457e8193535d19a2"
 };
 
 export default firebaseConfig;
