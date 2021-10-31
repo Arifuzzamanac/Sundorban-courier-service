@@ -11,7 +11,7 @@ const Service = (props) => {
                 <h2> {name}</h2>
                 <p>{description}</p>
                 <Link to={`/Booking/${_id}`}>
-                    <button className='btn btn-primary'>Appointment on {name.toLowerCase()}</button>
+                    <button className='btn btn-primary'>Book The {name.toLowerCase()}</button>
                 </Link>
             </div>
         </div>

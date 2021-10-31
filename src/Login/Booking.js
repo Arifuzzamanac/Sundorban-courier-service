@@ -16,8 +16,8 @@ const Booking = () => {
 
     const myservice = (name, img, description) => {
         console.log(name, img, description);
-        axios.post('localhost:9000', name, img, description)
-            // axios.post('https://shielded-spire-53735.herokuapp.com/myservice', name, img, description)
+        // axios.post('localhost:9000', name, img, description)
+        axios.post('https://shielded-spire-53735.herokuapp.com/services', name, img, description)
             .then(res => {
                 console.log(res);
                 if (res.data.insertedId) {
