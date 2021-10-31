@@ -38,14 +38,3 @@ const Myservices = () => {
 
 export default Myservices;
 
-// Here we delever your service in a few hour. for this service you have to pay little bit more. On here we delever your desired service as soon as possible ass firster. When ever the weather is support us for delever your product but we do our best try for your this service.
-
-
-// https://i.ibb.co/PCtTQT2/img5.jpg
-
-
-// https://i.ibb.co/0GgpZh8/img4.jpg
-// https://i.ibb.co/vqrvvd8/img6.jpg
-// https://i.ibb.co/tHrZ2F8/img2.png
-// https://i.ibb.co/r3F4XWw/img3.jpg
-// https://i.ibb.co/BzNcgy1/img1.png
