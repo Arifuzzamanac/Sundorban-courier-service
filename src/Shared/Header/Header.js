@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../Hooks/useAuth';
@@ -15,8 +15,10 @@ const Header = () => {
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={HashLink} className='text-white' to="/home#home">Home</Nav.Link>
-                        <Nav.Link as={HashLink} className='text-white' to="/home#services">Services</Nav.Link>
-                        <Nav.Link as={HashLink} className='text-white' to="/home#order">Booking us</Nav.Link>
+
+                        {
+                            user?.displayName ? <Nav.Link as={HashLink} className='text-white' to="/myservice">My Service</Nav.Link> : <Nav.Link as={HashLink} className='text-white' to="/home#services">Services</Nav.Link>
+                        }
 
                         {user?.displayName ?
                             <div onClick={logOut} className="btn btn-secondary">Logout</div>

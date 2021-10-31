@@ -4,11 +4,11 @@ import AuthProvider from './Context/AuthProvider';
 import AddService from './Home/AddService/AddService';
 import Home from './Home/Home/Home';
 import Myservices from './Home/Myservices/Myservices';
-import Order from './Home/Order/Order';
+
 import Booking from './Login/Booking';
 import Login from './Login/Login';
 import PrivateRouter from './Login/PrivateRouter/PrivateRouter';
-import Register from './Login/Register/Register';
+
 import NotFound from './NotFound/NotFound';
 import Footer from './Shared/Footer/Footer';
 import Header from './Shared/Header/Header';
@@ -35,7 +35,7 @@ function App() {
             <Route path='/addservice'>
               <AddService></AddService>
             </Route>
-            <Route path='/myservices'>
+            <Route path='/myservice'>
               <Myservices></Myservices>
             </Route>
             <Route path='*'>

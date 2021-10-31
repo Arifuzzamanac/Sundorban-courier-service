@@ -1,15 +1,33 @@
 import { useParams, Link } from 'react-router-dom';
 import './Booking.css'
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 const Booking = () => {
     const { ServiceId } = useParams();
     const [services, setServices] = useState([]);
+
     useEffect(() => {
         fetch(`https://shielded-spire-53735.herokuapp.com/services/${ServiceId}`)
             .then(res => res.json())
             .then(data => setServices(data))
     }, []);
+
+
+    const myservice = (name, img, description) => {
+        console.log(name, img, description);
+        axios.post('localhost:9000', name, img, description)
+            // axios.post('https://shielded-spire-53735.herokuapp.com/myservice', name, img, description)
+            .then(res => {
+                console.log(res);
+                if (res.data.insertedId) {
+                    alert('add succed')
+
+                }
+            })
+    }
+
+
     return (
         <div>
             <div className='booking'>
